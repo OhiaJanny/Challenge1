@@ -1,0 +1,273 @@
+/* Sizing and spacing is pretty good when viewed on half of the screen. Have not learnt responsive design yet. */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Updated to nav. */
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+/* Updated tag to nav added instructions to get the menu options to sit in the right place in the header. */
+nav ul {
+    list-style-type: none;
+    text-align: right;
+    width: 75%;
+    position: absolute;
+    right: 35px;
+}
+
+/* Updated tag to nav. */
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Nav items - font colour. */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Updated image reference. */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Adjusted width and added margins to get spacing around element right. */
+.content {
+    width: 74%;
+    display: inline-block;
+    position: relative;
+    right: 2%;
+    left: 2%;
+}
+
+/* Consolidated code into one set for 3 classes (below). Adjusted margin, padding and height to get element the right size with correct spacing between elements. */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 25px;
+    padding: 40px;
+    height: 280px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Separate code consolidated above.
+.search-engine-optimization {
+    margin-bottom: 25px;
+    padding: 40px;
+    height: 280px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+ 
+.online-reputation-management {
+    margin-bottom: 25px;
+    padding: 40px;
+    height: 280px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+ 
+.social-media-marketing {
+    margin-bottom: 25px;
+    padding: 40px;
+    height: 280px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+*/
+
+/* Consolidated code into one set for 3 classes (below). Adjusted size parameters so the images retain their aspect ratio. */
+.content img {
+    max-width: 325px;
+    max-height: 200px;
+}
+
+/* Consolidated this part of the code above.  
+.search-engine-optimization img {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+adjusted size parameters so the image retains its aspect ratio. 
+.online-reputation-management img {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+ adjusted size parameters so the image retains its aspect ratio. 
+.social-media-marketing img {
+    max-width: 300px;
+    max-height: 200px;
+}
+*/
+
+/* Consolidated code into one set for 3 classes (below). Adjusted font size to more closely match screenshot. */
+h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+/* Consolidated this part of the code above.
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+*/
+
+/* Changed the width to make these images smaller - search engine optimisation and social media marketing. */
+.float-left {
+    float: left;
+    margin-right: 25px;
+    width: 40%;
+}
+/* Changed the width to make this image smaller - online reputation management. */
+.float-right {
+    float: right;
+    margin-left: 25px;
+    width: 40%;
+}
+
+/* Changed font size to more closely resemble the screenshot. */
+p {
+    font-size: 15px;
+}
+
+/* Adjusted margins to get spacing around element right. */
+.benefits {
+    margin-right: 2%;
+    margin-bottom: 25px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Consolidated code into one set for 3 classes (below). */
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Separate code consolidated above. 
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+*/
+
+/* Consolidated code into one set for 3 classes (below). Adjusted font size to more closely match screenshot.  */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Separate code consolidated above.  
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+*/
+
+/* Don't think this can be consolidated. */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* set footer to not display. */
+.footer {
+    display: none;
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
