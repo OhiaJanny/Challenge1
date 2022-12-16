@@ -24,4 +24,5 @@ N/A
 
 Refer to the LICENSE in the repo.
 
----
+Deployment Link https://ohiajanny.github.io/Challenge1/
+Repository Link https://github.com/OhiaJanny/Challenge1
